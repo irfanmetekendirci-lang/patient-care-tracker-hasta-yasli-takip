@@ -71,7 +71,7 @@ lib/
 ## 🛠️ Installation & Setup / Kurulum
 
 1. Clone the repository / Repoyu klonlayın:
-   git clone https://github.com/KULLANICI_ADIN/REPO_ADIN.git
+   git clone https://github.com/irfanmetekendirci-lang/hasta_yasli_kontrol.git
 
 2. Install dependencies / Bağımlılıkları yükleyin:
    flutter pub get
