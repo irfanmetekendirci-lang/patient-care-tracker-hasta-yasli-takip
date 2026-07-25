@@ -12,8 +12,11 @@ This is a Flutter mobile application developed to help track the daily health st
 
 > 🚧 **Project Status:** *Work in Progress (WIP)* — Core architecture, UI designs, and navigation logic are completed. Database integration and further enhancements are ongoing.
 
-### 📱 Screenshots
-*(Place your app screenshots here)*
+### 📱 Screenshots / Ekran Görüntüleri
+
+| Screen 1 | Screen 2 | Screen 3 | Screen 4 | Screen 5 |
+| :---: | :---: | :---: | :---: | :---: |
+| ![Screen 1](screenshots/screen1.png) | ![Screen 2](screenshots/screen2.png) | ![Screen 3](screenshots/screen3.png) | ![Screen 4](screenshots/screen4.png) | ![Screen 5](screenshots/screen5.png) |
 
 ### ✨ Key Features
 - **Safety Check Countdown:** A timer and validation button allowing patients to confirm they are safe at designated intervals.
@@ -37,9 +40,6 @@ Bu proje, yaşlı ve hastaların günlük sağlık durumlarını, ilaç takipler
 
 > 🚧 **Proje Durumu:** *Geliştirme Aşamasında (WIP)* — Temel mimari, UI tasarımları ve sayfa yönlendirmeleri tamamlanmış olup, veritabanı entegrasyonu ve geliştirmeler devam etmektedir.
 
-### 📱 Ekran Görüntüleri
-*(Uygulama ekran görüntülerini buraya ekleyebilirsiniz)*
-
 ### ✨ Öne Çıkan Özellikler
 - **Geri Sayımlı Durum Kontrolü:** Hastanın/yaşlının belirlenen sürelerde güvende olduğunu doğrulamasını sağlayan buton ve zamanlayıcı.
 - **İlaç Takip Sistemi:** Kullanılan ilaçların adlarını ve kullanım saatlerini kaydetme modülü.
@@ -56,13 +56,25 @@ Proje, sürdürülebilir ve ölçeklenebilir olması adına **Feature-First Clea
 
 ## 📂 Project Structure / Proje Klasör Yapısı
 
-```text
 lib/
- ├── core/
- │    ├── constants/       # App colors & strings / Renkler ve metinler
- │    └── dummy_data/      # Mock database / Test verileri
- └── features/
-      ├── home/            # Home page module / Ana sayfa
-      ├── life_check/      # Safety check module / Durum kontrolü
-      ├── medication/      # Medication module / İlaç takibi
-      └── notes/           # Notes module / Notlar
+├── core/
+│    ├── constants/       # App colors & strings / Renkler ve metinler
+│    └── dummy_data/      # Mock database / Test verileri
+└── features/
+├── home/            # Home page module / Ana sayfa
+├── life_check/      # Safety check module / Durum kontrolü
+├── medication/      # Medication module / İlaç takibi
+└── notes/           # Notes module / Notlar
+
+---
+
+## 🛠️ Installation & Setup / Kurulum
+
+1. Clone the repository / Repoyu klonlayın:
+   git clone https://github.com/KULLANICI_ADIN/REPO_ADIN.git
+
+2. Install dependencies / Bağımlılıkları yükleyin:
+   flutter pub get
+
+3. Run the application / Uygulamayı çalıştırın:
+   flutter run
