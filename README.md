@@ -70,11 +70,11 @@ lib/
 
 ## 🛠️ Installation & Setup / Kurulum
 
-1. Clone the repository / Repoyu klonlayın:
-   git clone https://github.com/irfanmetekendirci-lang/hasta_yasli_kontrol.git
+1. Clone the repository / Repoyu klonlayın:  
+   git clone https://github.com/irfanmetekendirci-lang/patient-care-tracker-hasta-yasli-takip.git
 
-2. Install dependencies / Bağımlılıkları yükleyin:
+2. Install dependencies / Bağımlılıkları yükleyin:  
    flutter pub get
 
-3. Run the application / Uygulamayı çalıştırın:
+3. Run the application / Uygulamayı çalıştırın:  
    flutter run
